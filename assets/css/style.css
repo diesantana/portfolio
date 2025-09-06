@@ -32,3 +32,9 @@ button {
     background: none;
     cursor: pointer;
 }
+/* Variáveis CSS */
+:root {
+    --dark-blue-color: #2C3E50;
+    --white-color: #FFFFFF;
+    --green-color: #1ABC9C;
+}
