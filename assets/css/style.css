@@ -64,3 +64,21 @@ button {
     gap: 20px;
     font-size: 14px;
 }
+
+/* Profile/Sobre */
+.profile {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 30px;
+}
+
+.profile-box-img {
+    width: 150px;
+    height: 150px;
+}
