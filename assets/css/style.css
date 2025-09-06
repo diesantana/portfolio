@@ -82,3 +82,34 @@ button {
     width: 150px;
     height: 150px;
 }
+
+/* Portifólio / Projetos */
+.projects{
+    background-color: var(--white-color);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.projects-title{
+    color: var(--dark-blue-color);
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+    height: 200px;
+}
