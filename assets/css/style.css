@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 li {
@@ -32,9 +33,20 @@ button {
     background: none;
     cursor: pointer;
 }
+
 /* Variáveis CSS */
 :root {
     --dark-blue-color: #2C3E50;
     --white-color: #FFFFFF;
     --green-color: #1ABC9C;
+}
+
+/* header */
+.header {
+    height: 100px;
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
