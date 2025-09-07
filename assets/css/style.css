@@ -90,7 +90,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
 }
 
 .projects-title{
@@ -112,4 +111,31 @@ button {
     overflow: hidden;
     width: 280px;
     height: 200px;
+}
+
+/* Footer */
+footer{
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    padding: 30px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+} 
+
+.footer-text {
+    font-size: 14px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons .social-icon {
+    width: 32px;
 }
