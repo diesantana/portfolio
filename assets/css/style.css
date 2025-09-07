@@ -56,18 +56,18 @@ button {
   text-transform: uppercase;
 }
 
-.header__brand {
+.header-brand {
   font-weight: 700;
   font-size: 18px;
 }
 
-.header__menu {
+.header-menu {
   display: flex;
   gap: 20px;
   font-size: 14px;
 }
 
-.header__menu-item {
+.header-menu-item {
   position: relative;
   padding-bottom: 4px;
 }
