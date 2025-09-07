@@ -54,6 +54,15 @@ button {
   padding: 20px;
   gap: 15px;
   text-transform: uppercase;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  z-index: 100;
+}
+
+[id] {
+  scroll-margin-top: 100px; /*Define uma margin ao rolar a página */ 
 }
 
 .header-brand {
@@ -84,12 +93,17 @@ nav a::after {
   transition: width 0.4s ease-in-out;
 }
 
-/* Animação no hover */
 nav a:hover::after {
+    /* Animação no hover */
   width: 100%;
 }
 
 /* Profile/Sobre */
+main{
+    padding-top: 100px;
+}
+
+
 .profile {
   background-color: var(--green-color);
   color: var(--white-color);
