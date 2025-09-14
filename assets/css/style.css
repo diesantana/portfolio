@@ -189,6 +189,13 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+  .header-brand {
+    font-size: 30px;
+  }
+  .header-menu {
+    font-size: 18px;
+    gap: 30px;
+  }
   /* Profile/Sobre */
   .profile-title {
     font-size: 48px;
