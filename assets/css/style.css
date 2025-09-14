@@ -183,6 +183,14 @@ footer {
   transform: scale(1.2);
 }
 
+/* container */
+/* .profile-wrapper, .projects-wrapper, .footer-wrapper{ */
+.container{
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   /* header */
   .header {
@@ -212,5 +220,12 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* header */
+  .header {
+    padding: 20px 50px;
   }
 }
