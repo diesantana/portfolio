@@ -55,14 +55,14 @@ button {
   gap: 15px;
   text-transform: uppercase;
   position: fixed;
-  top: 0; 
-  left: 0; 
+  top: 0;
+  left: 0;
   right: 0;
   z-index: 100;
 }
 
 [id] {
-  scroll-margin-top: 100px; /*Define uma margin ao rolar a página */ 
+  scroll-margin-top: 100px; /*Define uma margin ao rolar a página */
 }
 
 .header-brand {
@@ -82,7 +82,7 @@ button {
 }
 
 nav a::after {
-    /* Linha invisível antes do hover */
+  /* Linha invisível antes do hover */
   content: "";
   position: absolute;
   left: 0;
@@ -94,15 +94,14 @@ nav a::after {
 }
 
 nav a:hover::after {
-    /* Animação no hover */
+  /* Animação no hover */
   width: 100%;
 }
 
 /* Profile/Sobre */
-main{
-    padding-top: 100px;
+main {
+  padding-top: 100px;
 }
-
 
 .profile {
   background-color: var(--green-color);
@@ -119,6 +118,7 @@ main{
 .profile-box-img {
   width: 150px;
   height: 150px;
+  margin-bottom: 20px;
 }
 
 /* Portifólio / Projetos */
@@ -181,4 +181,29 @@ footer {
 
 .footer-icons .social-icon:hover {
   transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+  /* header */
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* Profile/Sobre */
+  .profile-title {
+    font-size: 48px;
+  }
+  .profile-description {
+    font-size: 24px;
+  }
+  /* Portifólio / Projetos */
+  .projects-title {
+    font-size: 48px;
+  }
+  .projects-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
 }
